@@ -14,4 +14,4 @@ import { RegisterResolver } from './register.resolver';
     imports: [TypeOrmModule.forFeature([User])],
     providers: [RegisterService, RegisterResolver],
 })
-export class RegisterModuleModule {}
+export class RegisterModule {}

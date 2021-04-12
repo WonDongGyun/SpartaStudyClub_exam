@@ -1,5 +1,5 @@
 import { Module } from '@nestjs/common';
-import { RegisterModuleModule } from './register_Module/register.module';
+import { RegisterModule } from './register_Module/register.module';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { User } from './entity/user.entity';
 import { UserToday } from './entity/userToday.entity';
@@ -22,7 +22,7 @@ import { GraphQLModule } from '@nestjs/graphql';
             entities: [User, UserToday], // 작성한 entity 삽입
             synchronize: true, // false가 안전함
         }),
-        RegisterModuleModule,
+        RegisterModule,
     ],
     controllers: [],
     providers: [],
