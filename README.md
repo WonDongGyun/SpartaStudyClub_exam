@@ -104,6 +104,10 @@ ssc-project
 
 <br/>
 
+Insomnia를 사용해서 테스트 할 때는 아래의 데이터 중 하나를 넣어주시면 됩니다.  
+
+<br/>
+
 ```
 mutation{
   createProduct(data: {
