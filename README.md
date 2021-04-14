@@ -98,3 +98,31 @@ ssc-project
 <br/>
 <br/>
 <br/>
+
+🤗 Insomnia Test  
+-----------------  
+
+<br/>
+
+```
+mutation{
+  createProduct(data: {
+    email: "palopalo123@google.com",
+    nickName: "호오날두",
+    password: "merry1234"
+  }){
+    email
+    nickName
+    password
+  }
+}
+
+query {
+  getUser{
+    id
+    email
+    nickName
+    password
+  }
+}
+```
