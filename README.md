@@ -18,7 +18,7 @@ use  Nest js + TypeOrm + GraphQl
 -------------  
 <ul style="list-style-type: disc;" data-ke-list-type="disc">
 <li><b>진행 날짜 - 2021.04.09 ~ 2021.04.22</b></li>
-<li><b>목적 - 2주간의 미니 프로젝트 전에 혼자서 Nest js + TypeOrm + GraphQl 맛좀 봐볼까? </b></li>
+<li><b>목적 - 2주간의 미니 프로젝트 전에 Nest js + TypeOrm + GraphQl 맛좀 봐볼까? </b></li>
 </ul>
 
 <br/>
