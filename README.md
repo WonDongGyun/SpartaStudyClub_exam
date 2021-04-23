@@ -105,6 +105,8 @@ ssc-project
 <br/>
 
 Insomnia를 사용해서 테스트 할 때는 아래의 데이터 중 하나를 넣어주시면 됩니다.  
+query는 Get과 비슷하고 mutation은 Post와 비슷한 기능을 합니다.
+
 
 <br/>
 
